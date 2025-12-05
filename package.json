@@ -1,0 +1,16 @@
+{
+  "name": "zesbe-portfolio",
+  "version": "1.0.0",
+  "description": "ZESBE Portfolio - Future Technology",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.14.0"
+  }
+}

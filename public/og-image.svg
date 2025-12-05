@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700"/>
+      <stop offset="100%" style="stop-color:#ff8c00"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ffff"/>
+      <stop offset="100%" style="stop-color:#7b00ff"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="200" cy="315" r="300" fill="none" stroke="url(#cyan)" stroke-width="1" opacity="0.2"/>
+  <circle cx="200" cy="315" r="250" fill="none" stroke="url(#cyan)" stroke-width="1" opacity="0.15"/>
+  <circle cx="1000" cy="315" r="250" fill="none" stroke="url(#gold)" stroke-width="1" opacity="0.2"/>
+  
+  <!-- Glowing orbs -->
+  <circle cx="150" cy="150" r="100" fill="url(#cyan)" opacity="0.1"/>
+  <circle cx="1050" cy="480" r="120" fill="url(#gold)" opacity="0.1"/>
+  
+  <!-- Logo -->
+  <text x="600" y="280" font-family="Arial Black, sans-serif" font-size="120" font-weight="900" fill="url(#gold)" text-anchor="middle" filter="url(#glow)">ZESBE</text>
+  
+  <!-- Tagline -->
+  <text x="600" y="380" font-family="Arial, sans-serif" font-size="36" fill="#888888" text-anchor="middle" letter-spacing="8">FUTURE TECHNOLOGY</text>
+  
+  <!-- Decorative line -->
+  <rect x="450" y="320" width="300" height="2" fill="url(#cyan)" opacity="0.5"/>
+  
+  <!-- Bottom info -->
+  <text x="600" y="550" font-family="Arial, sans-serif" font-size="20" fill="#666666" text-anchor="middle">zesbe.my.id | Bekasi, Indonesia</text>
+  
+  <!-- Corner accents -->
+  <path d="M0,0 L80,0 L80,5 L5,5 L5,80 L0,80 Z" fill="url(#gold)" opacity="0.5"/>
+  <path d="M1200,630 L1120,630 L1120,625 L1195,625 L1195,550 L1200,550 Z" fill="url(#gold)" opacity="0.5"/>
+</svg>
